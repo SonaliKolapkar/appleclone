@@ -1,0 +1,459 @@
+/* Global Css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.btn-primary {
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    margin: 0px 10px;
+    margin-top: 15px;
+    padding: 12px 22px;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    color: white;
+}
+
+.details {
+    margin-bottom: 18px;
+    font-size: 24px;
+    line-height: 1.333;
+
+    text-align: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.processor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 14px;
+    margin-bottom: 32px;
+}
+
+.processor .processor-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.processor .processor-image {
+    width: 53px;
+}
+
+p.availability {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: rgb(135, 134, 140);
+    margin-bottom: 19px;
+}
+
+.description-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.container-heading {
+    font-size: 72px;
+    font-weight: 600;
+}
+
+.zi-2 {
+    z-index: 2;
+}
+
+/* Navigation Bar */
+.navigation {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100vw;
+    height: 50%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    font-size: 12px;
+}
+
+.nav-item {
+    padding: 12px 20px;
+    color: #d2d2d7;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.nav-item:hover {
+    color: white;
+}
+
+.nav-list .nav-logo {
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero-section {
+    margin: auto;
+    width: 100vw;
+    padding-top: 83px;
+    padding-bottom: 150px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(8, 12, 37) 100%);
+}
+
+.hero-section-image-container {
+    width: 100vw;
+    margin: auto;
+}
+
+.hero-image {
+    width: 65vw;
+    display: block;
+    margin: auto;
+}
+
+.hero-content {
+    color: rgb(198, 226, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content-heading {
+    margin-top: -110px;
+    margin-bottom: 15px;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.hero-content-info {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.33341;
+    margin-bottom: 15px;
+}
+
+.hero-content-button button {
+    background-color: #1d1d1f00;
+    color: rgb(198, 226, 230);
+    border: 2px solid rgb(198, 226, 230);
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 13px;
+    padding: 12px 22px;
+    cursor: pointer;
+}
+
+.hero-content-button button:hover {
+    background-color: rgb(198, 226, 230);
+    color: #1d1d1f;
+}
+
+/* Macbook Air Section */
+.mac-container {
+    padding: 160px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mac-container-image {
+    margin: 60px 0px;
+    width: 100vw;
+}
+
+.macbook-air-image {
+    width: 50vw;
+    display: block;
+    margin: auto;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.processor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 14px;
+    margin-bottom: 32px;
+}
+
+.processor .processor-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.processor .processor-image {
+    width: 53px;
+}
+
+p.availability {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: rgb(135, 134, 140);
+    margin-bottom: 19px;
+}
+
+.description-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+/* Ios 16 Section */
+.ios-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 160px 0px 0px;
+
+    background-color: #f5f5f7;
+
+    overflow: hidden;
+}
+
+.ios-container-image {
+    width: 122vw;
+    margin-top: -97px;
+    overflow: hidden;
+}
+
+.ios-details {
+    margin-top: -63px;
+    margin-bottom: 18px;
+    font-size: 24px;
+    line-height: 1.333;
+
+    text-align: center;
+    max-width: 565px;
+}
+
+/* MacOS Ventura Section */
+.ventura-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 0px 0px;
+    background-color: #f5f5f7;
+    overflow: hidden;
+}
+
+.ventura-container-image {
+    width: 83vw;
+    margin: 60px auto 70px;
+}
+
+.ventura-details {
+    margin-bottom: 18px;
+    font-size: 24px;
+    line-height: 1.333;
+    text-align: center;
+}
+
+/* iPadOS Section */
+.ipados-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 0px 0px;
+    background-color: #f5f5f7;
+    overflow: hidden;
+}
+
+.ipados-container-image {
+    width: 170vw;
+    margin-top: -120px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.ipados-details {
+    margin-top: -63px;
+    margin-bottom: 18px;
+    font-size: 24px;
+    line-height: 1.333;
+    text-align: center;
+    max-width: 565px;
+}
+
+/* Watch OS Section  */
+.watchos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 0px 150px;
+    background-color: #f5f5f7;
+    overflow: hidden;
+}
+
+.watchos-container-image {
+    width: 92vw;
+    margin-top: -30px;
+}
+
+.watchos-details {
+    margin-top: -15px;
+    margin-bottom: 18px;
+    font-size: 24px;
+    line-height: 1.333;
+    text-align: center;
+}
+
+/* Macbook Pro 13 Section */
+.macbookpro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 160px 0px;
+}
+
+.macbookpro-container-image {
+    padding-top: 25px;
+    width: 100vw;
+}
+
+.margin-up {
+    margin-top: -130px;
+}
+
+.color-border {
+    border: 1px solid;
+    border-image-slice: 3;
+    border-image-source: linear-gradient(
+        135deg,
+        rgba(239, 255, 9, 1) 0%,
+        rgba(218, 124, 63, 1) 30%,
+        rgba(255, 0, 0, 1) 65%,
+        rgba(233, 0, 255, 1) 100%
+    );
+}
+
+.btn-dark {
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    margin: 0px 10px;
+    margin-top: 15px;
+    padding: 12px 22px;
+    border: 2px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-dark:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Footer of the Website */
+.footer {
+    background-color: #1d1d1f;
+    color: #d2d2d7;
+    display: flex;
+    flex-direction: column;
+    padding: 17px 16vw;
+    font-size: 12px;
+}
+
+.footer-top {
+    padding: 0px 0px 17px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+}
+
+.footer-mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.col {
+    list-style-type: none;
+    margin: 15px 0px;
+}
+
+.list-heading {
+    color: #fff;
+    font-weight: bold;
+}
+
+.col > li {
+    letter-spacing: 1.3;
+    margin: 12px 0px;
+}
+
+.col > li:hover,
+.bm-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
